@@ -6,34 +6,18 @@ public class Student {
     private String email;
     private int mark;
 
-    public String getEmail() {
-        return email;
-    }
 
-    public void setEmail(String email) {
+    public Student(String name, String email, int mark) {
+        this.name = name;
         this.email = email;
-    }
-
-    public int getMark() {
-        return mark;
-    }
-
-    public void setMark(int mark) {
         this.mark = mark;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public void display(){
         System.out.println("student name is : "+name);
         System.out.println("student email is : "+email);
-        System.out.println("student maeks is : "+mark);
+        System.out.println("student marks is : "+mark);
     }
 
 }

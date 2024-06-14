@@ -6,9 +6,9 @@
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
 
         <bean id="student" class="com.bnt_soft.Student">
-            <property name="Name" value="abhishek"/>
-            <property name="Email" value="abhishekso@gmail.com"/>
-            <property name="Mark" value="100"/>
+            <constructor-arg name="Name" value="abhishek"/>
+            <constructor-arg name="Email" value="abhishekso@gmail.com"/>
+            <constructor-arg name="Mark" value="100"/>
         </bean>
 
 </beans>
