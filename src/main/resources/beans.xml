@@ -5,10 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
 
-        <bean id="student" class="com.bnt_soft.Student">
-            <constructor-arg name="Name" value="abhishek"/>
-            <constructor-arg name="Email" value="abhishekso@gmail.com"/>
-            <constructor-arg name="Mark" value="100"/>
-        </bean>
-
+   
+     <bean id="sim" class="com.bnt_soft.Airtel"> </bean>
+         
 </beans>
